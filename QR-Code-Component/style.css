@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins:wght@400;500;600;700;800&family=Sacramento&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 25px;
+  transition: 0.3s;
+  max-width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 20px;
+}
+
+img {
+  border-radius: 5.5%;
+  width: 290px;
+  height: 290px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  padding-top: 15px;
+  font-size: 15px;
+  color: grey;
+  font-weight: 400;
+  line-height: 1.5;
+}
